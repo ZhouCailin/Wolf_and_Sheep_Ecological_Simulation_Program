@@ -1,0 +1,30 @@
+﻿生成启动时间为 2020/1/10 1:07:06。
+     1>项目“D:\vs\zcl\testProj\newvisual\newvisual.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\newvisual.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         d:\vs\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\newvisual.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt newvisualDlg.cpp
+         newvisualDlg.cpp
+       ResourceCompile:
+         所有输出均为最新。
+       Link:
+         d:\vs\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\vs\zcl\testProj\Release\newvisual.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:"Release\newvisual.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\vs\zcl\testProj\Release\newvisual.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\vs\zcl\testProj\Release\newvisual.lib" /MACHINE:X86 Release\newvisual.res
+         Release\WOLFNSHEEP.obj
+         Release\newvisual.obj
+         Release\newvisualDlg.obj
+         Release\stdafx.obj
+         正在生成代码
+     1>d:\vs\zcl\testproj\visualize\wolfnsheep.cpp(119): warning C4715: “World::gridType”: 不是所有的控件路径都返回值
+         已完成代码的生成
+         newvisual.vcxproj -> D:\vs\zcl\testProj\Release\newvisual.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\vs\zcl\testProj\Release\newvisual.exe;#1" /manifest Release\newvisual.exe.intermediate.manifest d:\vs\VC\Include\Manifest\dpiaware.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\newvisual.unsuccessfulbuild”。
+         正在对“Release\newvisual.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\vs\zcl\testProj\newvisual\newvisual.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.25
